@@ -1,0 +1,54 @@
+WALKTHROUGH FOR PLANTCARE
+
+-This game may or may not have been inspired by the creator's inability to keep their plants alive
+
+
+INTRODUCTION:
+
+"You have recently moved to a new town and received a plant as a house-warming gift from your mother. 
+Unfortunately, you have no money, tools or even running water to care for the plant with. 
+Your mother will be coming to visit you in [number of hours] hours, can you keep the plant alive until then to prove her that you are a responsible adult?"
+
+
+CARING FOR THE PLANT:
+
+The plant has its own HP meter, which can be examined with the command "examine plant", moving to a new location also prints out the current HP.
+The plant always requires something, be it water, fertilizer or fresh soil. All of these can be found in the world, from the (flower)pot dealer, or bought with money from the store.
+Each hour the plant is without the required material, it loses 1 HP. When given the required material with the command use [item name], the plant's HP increases by 10, presuming that the item is in the inventory.
+The game has its own time system, which signals the start and end of the game. Time advances by one hour each time you move to a new location, also lowering the plant's HP by 1.
+
+The player can move to an adjacent location with the command "move [location name]", moving to a new location advances the gametime by an hour. The player has their own inventory, which can hold up to 3 items at a time.
+The player has a chest in their home, where items can be stored for later use with the command "store [item name]". The player can also get items from the chest with the command get [item name].
+The player can hold an unlimited amount of money, which can be used to buy items from the pot dealer or the store with the command "buy [item name]". Player can also sell items at the store in exchange for money, with the command "sell [item name]".
+The game ends when the pre-determined amount of hours has passed. The game also ends prematurely, if the plant dies.
+
+
+COMMANDS:
+
+quit               = Quits the game.
+help               = Prints out basic instructions for the game and this command list
+go [location name] = Moves the player to the specified location, if the location is neighboring the current location.
+get [item name]    = Inserts the item to the player's inventory, if the player is home and the chest contains the said item. This command has no effect outside of home.
+store [item name]  = Stores the item to the player's chest, if the player is home and the inventory contains the said item. This command has no effect outside of home.
+examine [target]   = Makes the player examine the target, printing out the description of said target and possibly giving an item. The player can examine any item, their wallet, their inventory and the objects declared by the area's description.
+buy [item name]	   = Buys the item from the vendor, if the vendor is in the same location and has the said item. Removes an amount of money equal to the item's price from the player's wallet.
+sell [item name]   = Sells the item to the vendor, if the vendor is in the same location and player has the said item. Adds an amount of money equal to half of the item's price.
+talk [target]      = The player can talk to the vendors, printing out some (possibly) useful information and the vendor's catalogue.
+use [item name]    = Uses the item on the plant. This command has no effect outside home.
+inventory          = Prints the player's inventory.
+wallet             = Prints the player's wallet.
+
+
+WALKTHROUGH:
+
+The game's difficulty varies depending on the plant's initial HP and the game duration. With the default settings the game is fairly simple if the player is already aware of how the game works. At the start of the game, the player should travel to the park and suburbs to examine the bush and the lamp post, respectively.
+The first time these are examined, the objects give the player an item from the head of the player's itemsToFind Map, so a soil and a fertilizer if examined before the Map is mutated.
+The player should also examine the junkyard's mound as often as possible, since every five hours the mound will offer a varied amount of money or an item.
+
+With these items and/or cash, the player can give or buy the plant what it needs by selling the unnecessary items. The plant gets 10 HP with every needed item given, so the player should use the item earliest when the plant's HP is 10 below the max HP.
+The player can store items into the chest until then. If the player has enough money, they should buy the empty bottle from the shopkeeper, providing an unlimited source of water by filling up the bottle at the river in the forest.
+The pot dealer also sells a flower pot for 40 bucks which increases the plant's max HP by 20, reducing the amount of times the player needs to travel home to care for the plant.
+
+Especially at the beginning of the game, the player should prepare for the night-time (when the shop is closed) by carrying or storing items at the chest, since the pot dealer only has one type of each item the plant might need.
+The shopkeeper and pot dealer don't refill their stock, so once one type of item is sold out, the player needs to buy it from the other vendor or get it from the mound.
+
